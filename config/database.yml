@@ -8,3 +8,10 @@ development:
   pool: 5
   timeout: 5000
 
+production:
+  adapter: mysql2
+  database: twit_production
+  username: root
+  password: root
+  pool: 5
+  timeout: 5000
