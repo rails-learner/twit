@@ -42,12 +42,11 @@ a:visited {
   color: #069;
 }
 
-nav {
-  float: right;
-}
+/* Navigation */
 
 nav {
-  background-color: white;
+  float: right;
+  background: white;
   padding: 0 0.7em;
   white-space: nowrap;
 }
@@ -75,6 +74,7 @@ nav ul li a:visited {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
 /* Sign up button */
 
 a.signup_button {
@@ -89,6 +89,7 @@ a.signup_button {
   font-weight: bold;
   padding: 20px;
 }
+
 /* Round corners */
 
 .round {
@@ -96,6 +97,9 @@ a.signup_button {
   -webkit-border-radius: 10px;
   border-radius:         10px;
 }
+
+/* Footer */
+
 footer {
   text-align: center;
   margin-top: 10px;
@@ -107,14 +111,6 @@ footer {
 footer nav {
   float: none;
 }
-
-
-
-
-
-
-
-
 
 /* User show page */
 
@@ -143,6 +139,8 @@ td.sidebar {
 div.field, div.actions {
   margin-bottom: 10px;
 }
+
+/*  Error messages */
 
 .field_with_errors {
   margin-top: 10px;
@@ -189,9 +187,11 @@ ul.users {
   margin-top: 1em;
 }
 
-.users li {
+ul.users li {
   list-style: none;
 }
+
+/*  Micropost styling */
 
 h1.micropost {
   margin-bottom: 0.3em;
@@ -247,4 +247,3 @@ form.new_micropost textarea {
   height: 4em;
   margin-bottom: 0;
 }
-
